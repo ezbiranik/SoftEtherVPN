@@ -68,7 +68,7 @@ Note that commands run only if the config file is not mounted. Some commands (li
 
 ## OpenVPN ##
 
-`docker run -d --cap-add NET_ADMIN -p 1194:1194/udp siomiz/softethervpn`
+`docker run -d --cap-add NET_ADMIN -p 1194:1194/udp ezbiranik/softethervpn`
 
 The entire log can be saved and used as an `.ovpn` config file (change as needed).
 
@@ -90,7 +90,7 @@ Certificate volumes support (like `-v` or `--volumes-from`) will be added at som
 
 ## License ##
 
-[MIT License][4].
+[MIT License][3].
 
   [1]: https://www.softether.org/
   [2]: https://github.com/SoftEtherVPN/SoftEtherVPN_Stable
