@@ -1,7 +1,5 @@
 # A simple<sup>*</sup> [SoftEther VPN][1] server Docker image
 
-`:latest` = [![Travis](https://img.shields.io/travis/siomiz/SoftEtherVPN/master.svg?style=flat-square)](https://travis-ci.org/siomiz/SoftEtherVPN)
-
 <sup>*</sup> "Simple" as in no configuration parameter is needed for a single-user SecureNAT setup.
 
 ## Image Tags
@@ -97,4 +95,4 @@ Certificate volumes support (like `-v` or `--volumes-from`) will be added at som
   [1]: https://www.softether.org/
   [2]: https://github.com/SoftEtherVPN/SoftEtherVPN_Stable
   [3]: https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables-e-env-env-file
-  [4]: https://github.com/siomiz/SoftEtherVPN/raw/master/LICENSE
+
