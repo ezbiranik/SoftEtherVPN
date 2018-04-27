@@ -68,7 +68,7 @@ Note that commands run only if the config file is not mounted. Some commands (li
 
 ## OpenVPN ##
 
-`docker run -d --cap-add NET_ADMIN -p 1194:1194/udp ezbiranik/softethervpn`
+`docker run -d --cap-add NET_ADMIN -p 1194:1194/udp ezbiranik/docker-softethervpn`
 
 The entire log can be saved and used as an `.ovpn` config file (change as needed).
 
